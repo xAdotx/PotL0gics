@@ -88,6 +88,17 @@ export function Dashboard() {
             </Link>
 
             <Link
+              to="/poker-bot"
+              className="flex items-center p-3 rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-colors"
+            >
+              <Activity className="h-5 w-5 text-primary-600 mr-3" />
+              <div>
+                <p className="font-medium text-gray-900">Poker Bot</p>
+                <p className="text-sm text-gray-500">Advanced poker analysis & calculations</p>
+              </div>
+            </Link>
+
+            <Link
               to="/hand-evaluator"
               className="flex items-center p-3 rounded-lg border border-gray-200 hover:border-primary-300 hover:bg-primary-50 transition-colors"
             >
@@ -190,6 +201,18 @@ export function Dashboard() {
             <div className="ml-3">
               <h4 className="text-sm font-medium text-gray-900">Real-time Analysis</h4>
               <p className="text-sm text-gray-500">Get live updates during your games</p>
+            </div>
+          </div>
+
+          <div className="flex items-start">
+            <div className="flex-shrink-0">
+              <div className="w-8 h-8 bg-indigo-100 rounded-lg flex items-center justify-center">
+                <Activity className="h-5 w-5 text-indigo-600" />
+              </div>
+            </div>
+            <div className="ml-3">
+              <h4 className="text-sm font-medium text-gray-900">Poker Bot</h4>
+              <p className="text-sm text-gray-500">Advanced calculations and strategy recommendations</p>
             </div>
           </div>
 

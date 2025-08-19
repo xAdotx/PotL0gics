@@ -1,0 +1,18 @@
+This directory needs the following PNG icon files to be generated from icon.svg:
+
+Main app icons:
+- icon-72x72.png
+- icon-96x96.png  
+- icon-128x128.png
+- icon-144x144.png
+- icon-152x152.png
+- icon-192x192.png
+- icon-384x384.png
+- icon-512x512.png
+
+Shortcut icons:
+- shortcut-hand-96x96.png
+- shortcut-pot-96x96.png
+- shortcut-history-96x96.png
+
+See README.md in this directory for generation instructions. 

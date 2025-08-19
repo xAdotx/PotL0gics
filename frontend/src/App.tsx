@@ -6,12 +6,14 @@ import { HandEvaluator } from './pages/HandEvaluator'
 import { Statistics } from './pages/Statistics'
 import { GameHistory } from './pages/GameHistory'
 import { Settings } from './pages/Settings'
+import PokerBot from './components/PokerBot'
 
 function App() {
   return (
     <Layout>
       <Routes>
         <Route path="/" element={<Dashboard />} />
+        <Route path="/poker-bot" element={<PokerBot />} />
         <Route path="/pot-odds" element={<PotOddsCalculator />} />
         <Route path="/hand-evaluator" element={<HandEvaluator />} />
         <Route path="/statistics" element={<Statistics />} />

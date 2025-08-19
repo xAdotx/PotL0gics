@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="64" fill="#2563eb"/>
+  
+  <!-- Card outline -->
+  <rect x="128" y="128" width="256" height="256" rx="16" fill="#1e40af" stroke="#ffffff" stroke-width="8"/>
+  
+  <!-- Spade symbol -->
+  <path d="M256 180 L240 220 L272 220 L256 180 Z" fill="#ffffff"/>
+  <path d="M240 220 L248 240 L264 240 L272 220 L256 260 L240 220 Z" fill="#ffffff"/>
+  <circle cx="248" cy="200" r="8" fill="#ffffff"/>
+  <circle cx="264" cy="200" r="8" fill="#ffffff"/>
+  
+  <!-- Heart symbol -->
+  <path d="M256 280 Q256 260 276 260 Q296 260 296 280 Q296 300 256 320 Q216 300 216 280 Q216 260 236 260 Q256 260 256 280 Z" fill="#ef4444"/>
+  
+  <!-- Diamond symbol -->
+  <path d="M256 340 L276 320 L256 300 L236 320 L256 340 Z" fill="#ffffff"/>
+  
+  <!-- Club symbol -->
+  <path d="M256 380 L248 400 L264 400 L256 380 Z" fill="#ffffff"/>
+  <circle cx="248" cy="390" r="6" fill="#ffffff"/>
+  <circle cx="264" cy="390" r="6" fill="#ffffff"/>
+  <circle cx="256" cy="410" r="6" fill="#ffffff"/>
+</svg> 

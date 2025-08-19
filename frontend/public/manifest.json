@@ -1,0 +1,106 @@
+{
+  "name": "Pot Logic - Advanced Poker Bot",
+  "short_name": "Pot Logic",
+  "description": "Advanced poker bot with hand evaluation, pot odds calculation, and game analysis. Make informed poker decisions with real-time calculations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["games", "utilities", "productivity"],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Hand Evaluator",
+      "short_name": "Hand Eval",
+      "description": "Evaluate poker hands and calculate odds",
+      "url": "/hand-evaluator",
+      "icons": [
+        {
+          "src": "/icons/shortcut-hand-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Pot Odds Calculator",
+      "short_name": "Pot Odds",
+      "description": "Calculate pot odds and expected value",
+      "url": "/pot-odds-calculator",
+      "icons": [
+        {
+          "src": "/icons/shortcut-pot-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Game History",
+      "short_name": "History",
+      "description": "View your poker game history and statistics",
+      "url": "/game-history",
+      "icons": [
+        {
+          "src": "/icons/shortcut-history-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+} 
